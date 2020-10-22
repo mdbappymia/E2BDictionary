@@ -5,12 +5,12 @@ var url = BASE_URL
 
 axios.get(url)
     .then(({ data }) => {
-        console.log(data[0])
+
         var temp = []
         for (let i = 0; i < data.length; i++) {
             temp.push(data[i].en)
         }
-        console.log(temp)
+
 
 
         inputWord.addEventListener('keypress', function (e) {
@@ -61,7 +61,7 @@ axios.get(url)
                             /*insert the value for the autocomplete text field:*/
                             inp.value = this.getElementsByTagName("input")[0].value;
                             var b = search(inp.value, data)
-                            console.log(b.bn)
+
                             setHtml(b)
                             /*close the list of autocompleted values,               
                             (or any other open lists of autocompleted values:*/
