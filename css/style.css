@@ -70,7 +70,7 @@ input[type="text"] {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 345px) {
+@media only screen and (max-width: 330px) {
   .autocomplete-items {
     top: 35%;
   }
