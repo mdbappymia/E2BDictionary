@@ -51,7 +51,7 @@ input[type="text"] {
   border-bottom: none;
   border-top: none;
   z-index: 99;
-  top: 26%;
+  top: 152px;
   /*position the autocomplete items to be the same width as the container:*/
 }
 .autocomplete-items div {
@@ -72,6 +72,6 @@ input[type="text"] {
 
 @media only screen and (max-width: 330px) {
   .autocomplete-items {
-    top: 35%;
+    top: 200px;
   }
 }
